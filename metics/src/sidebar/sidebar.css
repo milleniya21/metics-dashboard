@@ -1,0 +1,35 @@
+.sidebar-menu
+{
+    background-color: rgb(3, 3, 92);
+    width: 15%;
+    margin: 10px ;
+    padding: 20px;
+}
+.elements
+{
+    align-item: center;
+}
+.sidebar-menu span{
+    color: white;
+}
+.sidebar-menu ul
+{
+    list-style-type: none;
+    
+    
+}
+.sidebar-menu li 
+{
+    padding: 20px;
+}
+.sidebar-menu button 
+{   width: 100%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+   font-weight: bold;
+   background-color: rgb(243, 52, 52);
+   color: white;
+   font-size:large;
+   border-radius: 5px;  
+   border: none;
+}
