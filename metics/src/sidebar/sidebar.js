@@ -1,5 +1,8 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import Dashboard from '../pages/Dashboard/dashboard';
 import './sidebar.css'
+import
 
 function Sidebar () {
   return (
@@ -11,8 +14,11 @@ function Sidebar () {
                 <button> Create a RFQ</button>
                <ul>
                 <li>
-                    <span className="las la-home"></span>
+                    <Link to="/">
+                        <span className="las la-home"></span>
                         <span>Dashboard</span>
+                        
+                    </Link>
                 </li>
                 <li>
                     <span className ="las la-file-alt"></span>
@@ -44,7 +50,7 @@ function Sidebar () {
             </div>
       
     </div>
-  )
+  );
 }
 
-export default Sidebar
+export default Sidebar;
